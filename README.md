@@ -1,4 +1,6 @@
 📊 Netflix Movies & TV Shows Clustering (Unsupervised Learning)
+
+
 📌 Project Overview
 With thousands of titles in Netflix’s catalog, manually organizing and analyzing content becomes challenging. This project uses unsupervised learning to cluster similar movies and TV shows based on various features. The insights can support better content recommendations, tagging, and strategic planning.
 
