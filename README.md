@@ -1,84 +1,100 @@
 📊 Netflix Movies & TV Shows Clustering (Unsupervised Learning)
+Unsupervised machine learning is used in this project to cluster Netflix content based on features like genre, release year, and duration — helping uncover hidden patterns and supporting better recommendations and strategic decisions.
 
+
+![netflix](https://github.com/user-attachments/assets/4c7e126e-4653-4e04-80b2-74792402899e)
 
 📌 Project Overview
-With thousands of titles in Netflix’s catalog, manually organizing and analyzing content becomes challenging. This project uses unsupervised learning to cluster similar movies and TV shows based on various features. The insights can support better content recommendations, tagging, and strategic planning.
+With thousands of titles in Netflix’s ever-expanding catalog, manually organizing and understanding content becomes difficult. This project tackles that challenge using clustering techniques.
 
-🎯 Objective
-Cluster similar movies and TV shows using features like genre, release year, and duration.
+Goals:
 
-Apply unsupervised learning techniques to discover hidden content patterns.
+🔍 Cluster similar movies and TV shows
 
-Create visual insights into how Netflix's content is distributed and grouped.
+🧠 Discover hidden patterns in content using unsupervised learning
+
+📈 Create visual insights into Netflix's content distribution
 
 🧰 Tools & Technologies
-Python: Numpy, Pandas, Scikit-learn
+Programming Language & Libraries
 
-Visualization: Matplotlib, Seaborn
+🐍 Python: NumPy, Pandas, Scikit-learn
 
-Machine Learning: K-Means Clustering, PCA (Principal Component Analysis)
+📊 Visualization: Matplotlib, Seaborn
+
+🧪 Machine Learning: K-Means Clustering, PCA (Principal Component Analysis)
 
 📄 About the Dataset
-The dataset contains metadata about Netflix content, including:
+The dataset includes metadata for Netflix titles, with columns such as:
 
-Show type (Movie/TV Show)
-
-Title, Genre, Cast
-
-Country of production
-
-Release year
-
-Duration
-
+Feature	Description
+type	Type of content (Movie/TV Show)
+title	Name of the show
+listed_in	Genre(s)
+cast	Cast members
+country	Country of production
+release_year	Year released
+duration	Runtime (in minutes or seasons)
 🧹 Data Preprocessing
-Cleaned missing or inconsistent entries (e.g., standardized duration formats)
+Key steps before clustering:
 
-Converted categorical data into numerical form using encoding techniques
+✅ Cleaned missing or inconsistent values (e.g., duration format)
+![netflix 1](https://github.com/user-attachments/assets/89d74dc5-6daf-47ce-826f-29121954ed21)
 
-Applied PCA to reduce data dimensions and improve clustering performance
+🔁 Converted categorical data into numerical format via encoding
+
+🔻 Applied PCA to reduce dimensionality and enhance clustering performance
 
 🔍 Actionable Insights
-Content Grouping: Content was segmented into meaningful clusters
-
-Genre Overlap: Identified dominant genres in overlapping categories
-
-Temporal Trends: Older shows clustered differently than newer ones
-
-Content Diversity: Highlighted regional content similarities
-
-Movie vs TV Patterns: Clear separation between movies and TV shows
+🧩 Content Grouping: Similar types of content were naturally grouped
+🎭 Genre Overlap: Discovered hybrid genres and dominant categories
+🗓️ Temporal Trends: Older vs. newer content clustered distinctly
+🌍 Content Diversity: Regional similarities emerged in clusters
+📺 Movie vs TV Show: Clear visual separation between formats
 
 📈 Key Results
-Used the Elbow Method to determine the optimal number of clusters
+📉 Used the Elbow Method to determine the ideal number of clusters
 
-Applied K-Means Clustering to group content
+🔁 Applied K-Means Clustering for grouping
 
-Used PCA to visualize data in 2D for easier interpretation
+🔻 Used PCA for 2D visualization of high-dimensional features
 
-Gained a better understanding of how Netflix’s content is structured
+🔍 Revealed insightful structure in Netflix’s content catalog
 
 💼 Business Impact
 For Netflix:
+🔁 Better recommendation engine through auto-grouping
 
-Improved recommendation systems through automatic content grouping
+🧠 Strategic content planning based on grouped clusters
 
-Helped content strategists identify gaps and patterns in releases
+📚 Efficient tagging systems with machine-detected similarities
 
 For Data Teams:
+🧪 Enhanced understanding of content layout and user consumption
 
-Enhanced tagging systems using machine-generated clusters
-
-Enabled more informed, data-driven decisions in content acquisition
+🎯 Data-driven decisions in content acquisition and curation
 
 📊 Sample Visualizations
-(You can add image links or screenshots of your cluster plots, PCA visuals, etc.)
+Add your cluster plots and PCA visualizations here.
+
+🎯 PCA Visualization
+
+📌 Content Clusters
 
 🚀 How to Run
-Clone the repo
+bash
+Copy
+Edit
+# Clone the repository
+git clone https://github.com/your-username/netflix-clustering.git
+cd netflix-clustering
 
-Install required packages (pip install -r requirements.txt)
+# Install required packages
+pip install -r requirements.txt
 
-Run the Jupyter notebook or Python script
+# Run the Jupyter notebook
+jupyter notebook Netflix_Clustering.ipynb
 
-Explore the visualizations and insights
+🙋‍♂️ Contact
+prince pareek
+📧 princepareek29@gmail.com
