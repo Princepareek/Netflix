@@ -85,9 +85,6 @@ Add your cluster plots and PCA visualizations here.
 bash
 Copy
 Edit
-# Clone the repository
-git clone https://github.com/your-username/netflix-clustering.git
-cd netflix-clustering
 
 # Install required packages
 pip install -r requirements.txt
